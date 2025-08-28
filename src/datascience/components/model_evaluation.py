@@ -9,9 +9,9 @@ from urllib.parse import urlparse
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 import pandas as pd
 import os
-os.environ["MLFLOW_TRACKING_URI"] = "https://dagshub.com/MahirPatel3130/data-science-project.mlflow"
-os.environ["MLFLOW_TRACKING_USERNAME"] = "MahirPatel3130"
-os.environ["MLFLOW_TRACKING_PASSWORD"] = "62a82632e00de76e72738a5f9d0484f894042830"
+# os.environ["MLFLOW_TRACKING_URI"] = "__your mlflow uri__"
+# os.environ["MLFLOW_TRACKING_USERNAME"] = "__put your username__"
+# os.environ["MLFLOW_TRACKING_PASSWORD"] = "___put your key__"
 
 
 class ModelEvaluation:
